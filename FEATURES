@@ -1,0 +1,70 @@
+Feature: FerocityPing
+
+  🛠️ Use FerocityPing to assess connectivity and retrieve location information for hosts 🌐
+  So that I can efficiently manage and troubleshoot network issues
+  
+  Scenario: ICMP Ping 📶
+    Given I have FerocityPing running 🏃
+    When I ping a host using ICMP method 🛰️
+    Then I should receive a response with round-trip time ⏱️
+    
+  Scenario: UDP Ping 📡
+    Given I have FerocityPing running 🏃
+    When I ping a host using UDP method 📤
+    Then I should receive a response indicating success or failure ✅❌
+    
+  Scenario: TCP Ping 📟
+    Given I have FerocityPing running 🏃
+    When I ping a host using TCP method 📨
+    Then I should receive a response indicating success or failure ✅❌
+    
+  Scenario: HTTP Ping 🌐
+    Given I have FerocityPing running 🏃
+    When I ping a host using HTTP method 🌐
+    Then I should receive a response with HTTP status code 📡
+    
+  Scenario: Location Information 🗺️
+    Given I have FerocityPing running 🏃
+    When I ping a host 🌐
+    Then I should receive location information for the target host 📍
+    
+  Scenario: Endless Ping ⏳
+    Given I have FerocityPing running 🏃
+    When I perform an endless ping 🔄
+    Then I should be able to stop it using Ctrl+C 🛑
+    
+  Scenario: Error Handling ❌
+    Given I have FerocityPing running 🏃
+    When I encounter an error during ping ⚠️
+    Then I should receive an appropriate error message 📛
+    
+  Scenario: Port Specification 🚪
+    Given I have FerocityPing running 🏃
+    When I specify a port to ping 📌
+    Then I should receive responses on the specified port
+    
+  Scenario: Invalid Input Handling 🚫
+    Given I have FerocityPing running 🏃
+    When I input invalid host or port 🚷
+    Then I should receive an error message indicating invalid input
+    
+  Scenario: Graceful Exit 🚪
+    Given I have FerocityPing running 🏃
+    When I choose to exit the program gracefully 🚶‍♂️
+    Then the program should terminate without errors
+    
+  Scenario: Performance Metrics 📊
+    Given I have FerocityPing running 🏃
+    When I ping multiple hosts or perform repeated pings 🔄
+    Then I should receive performance metrics such as average response time and packet loss percentage
+    
+  Scenario: Customizable Timeout ⏲️
+    Given I have FerocityPing running 🏃
+    When I specify a custom timeout value ⏳
+    Then the ping should timeout after the specified duration
+    
+  Scenario: Cross-Platform Compatibility 💻
+    Given FerocityPing is installed on different platforms 🖥️
+    When I run FerocityPing on each platform 🏃
+    Then it should function consistently across all platforms
+
