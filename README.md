@@ -38,7 +38,7 @@ FerocityPing also provides location information for the target host by resolving
 
 3️⃣ Open a terminal or command prompt and navigate to the directory containing the script.
 
-4️⃣ Run the script by executing `python FerocityPing.py`.
+4️⃣ Run the script by executing `python ferocity.py`.
 
 5️⃣ Follow the prompts to enter the target hostname or IP address, port, and desired ping method.
 
