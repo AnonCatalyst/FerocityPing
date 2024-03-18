@@ -1,7 +1,4 @@
 
-Certainly! Here's the description with emojis for all the numbering:
-
----
 
 🌐 **FerocityPing: A Python Network Utility**
 
